@@ -1,6 +1,6 @@
 # Spring-Security
 
-<p>Spring Security é um porjeto do ecossistema Spring que conta com uma poderosa estrutura personalizável para implementação de autenticação
+<p>Spring Security é um projeto do ecossistema Spring que conta com uma poderosa estrutura personalizável para implementação de autenticação
 e autorização em aplicações Java Spring.<p/>
 
 <h3>Riscos e vulnerabilidades em aplicacoes web</h3>
@@ -34,8 +34,8 @@ e autorização em aplicações Java Spring.<p/>
 
 <h3>Controle de acesso</h3>
 
-<p>No método <emph>configure<emph> da classe <emph>WebSecurityConfig</emph> é adicionado o no builder os <emph>antMatechers</emph>, passando
-o verbo HTTp, o caminho da url que terá a regra e por fim qual <emph>Role</emph> é permitida acessar esta url.</p>
+<p>No método <emph>configure<emph> da classe <emph>WebSecurityConfig</emph> é adicionado no builder os <emph>antMatechers</emph>, passando
+o verbo HTTP, o caminho da url que terá a regra e por fim qual <emph>Role</emph> é permitida acessar esta url.</p>
 <p>O exemplo acima sobre quais roles podem acessar foi descontinuado (não se utiliza mais a classe <emph>WebSecurityConfigurerAdapter</emph>), porém foi visto pois é muito utilizado em projetos antigos do <emph>Spring</emph>.</p>
 <p>Os testes irao continuar criando uma classe chamada de <emph>WebSecurityConfigV2</emph> que usara o metodo <emph>filterChain</emph> para autenticar e autorizar as requisicoes.</p>
 
